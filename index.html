@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>El Sanatları Sitesi</title>
+	<link rel="icon" type="image/x-icon" href="images/el-icon.ico">
+	<style>
+		table, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		}
+		a {
+		  display: block;
+		}
+		a:link {
+		  color: tomato;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+
+		a:visited {
+		  color: brown;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+
+		a:hover {
+		  color: dodgerblue;
+		  background-color: transparent;
+		  text-decoration: underline;
+		}
+
+		a:active {
+		  color: green;
+		  background-color: transparent;
+		  text-decoration: underline;
+		}
+		div {
+			background-color: none;
+			border-collapse: collapse;
+		}
+		.footer{
+			display: flex;
+			justify-content: space-between;
+			border-collapse: collapse;
+			padding: 1%;
+		}
+		div.footer div {
+			border: 2px solid black;
+			background-color: none;
+			border-collapse: collapse;
+	</style>
+	<script src=”https://code.jquery.com/jquery-3.4.1.min.js“></script>
+</head>
+<body>
+
+<table style="width:80%" align="center">
+  <tr>
+    <td>
+		<a href="index.html">
+			<img src="images/el-logo.jpg" alt="El Sanatları" style="width:200px;height:200px;">
+		</a>
+	</td>
+    <td colspan="2" style="background-color: #AFEEEE">
+		<picture>
+		  <source media="(min-width: 950px)" srcset="images/el-banner1.jpg">
+		  <source media="(min-width: 600px)" srcset="images/el-banner2.jpg">
+		  <img src="images/el-banner3.jpg" style="width:auto;">
+		</picture>
+	</td>
+  </tr>
+  <tr>
+    <td style="width:15%; vertical-align:top; background-color: #DCDCDC; padding: 1%;">
+		<a href="index.html" target="_self">Anasayfa</a>
+		<a href="uye_ol.htm" target="iframe_ac">Üye Ol</a>
+		<a href="filografi.htm" target="iframe_ac">Filografi Sanatı</a>
+		<a href="ana_iframe.htm" target="iframe_ac">Ebru Sanatı</a>
+		<a href="ana_iframe.htm" target="iframe_ac">Halı-Kilim Dokuma</a>
+		<a href="ana_iframe.htm" target="iframe_ac">Seramik-Çömlek Yapımı</a>
+	</td>
+    <td style="width:70%">
+		<iframe src="ana_iframe.htm" name="iframe_ac" height="600px" width="100%" frameborder="0"  title="Ana iframe"></iframe>
+	</td>
+    <td style="width:15%; background-color: #DCDCDC; text-align: center">Adw</td>
+  </tr>
+  <tr>
+	<tr style="text-align: center; background-color: #FFEFD5">
+		<td colspan="3">
+			<div class="footer">
+				<div style="width: 17%"><a href="index.html" target="_self">El Sanatları</a></div>
+				<div style="width: 17%"><a href="filografi.htm" target="iframe_ac">Filografi Sanatı</a></div>
+				<div style="width: 17%"><a href="#">Ebru Sanatı</a></div>
+				<div style="width: 17%"><a href="#">Halı-Kilim Dokuma</a></div>
+				<div style="width: 17%"><a href="#">Seramik-Çömlek Yapımı</a></div>
+			</div>
+		</td>
+	</tr>
+	<tr style="text-align: center; background-color: #FFDEAD">
+		<td colspan="3">
+			<div class="footer">
+				<div style="width: 17%"><a href="#">Hakkımızda</a></div>
+				<div style="width: 17%"><a href="#">Faaliyetlerimiz</a></div>
+				<div style="width: 17%"><a href="#">Facebook</a></div>
+				<div style="width: 17%"><a href="#">Twitter</a></div>
+				<div style="width: 17%"><a href="#">Instagram</a></div>
+			</div>
+		</td>
+	</tr>
+  </tr>
+</table>
+
+</body>
+</html>
